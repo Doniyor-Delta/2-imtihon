@@ -25,12 +25,38 @@
 
 .delivery__item {
     margin-right: 30px;
+    position: relative;
 
     &:last-child {
         margin-right: 0;
     }
-
 }
+
+.delivery__img {
+    width: 96px;
+    height: 96px;
+    display: block;
+    border-radius: 50%;
+    background-color: $orange;
+}
+
+.delivery__img-phone {
+    background-image: url(../img/phone.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.delivery__img-moto {
+    background-image: url(../img/moto.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.delivery__img-enjoy {
+    background-image: url(../img/enjoy.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
 
 
 
@@ -60,19 +86,7 @@ margin: 0;
 
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
-  
-  .intro{
-      background-image: url(../../img/delivery-phone@2x.png);
 
-  }
-}
 
 
 @media screen and (max-width: $tablet){
@@ -139,10 +153,9 @@ only screen and (                min-resolution: 2dppx) {
     }
 }
 
-.delivery__item-img {
-  width: 56px;
-   height: 56px;
-   margin: 0;
+.delivery__img {
+    display: inline-block;
+   
 }
 
 .delivery__content {
