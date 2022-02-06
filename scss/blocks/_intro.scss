@@ -131,7 +131,7 @@ only screen and (                min-resolution: 2dppx) {
        
        overflow: hidden;
         text-align: center;
-        background-image: url(../img/intro-mobile.png) cover;
+        background-image: url(../img/intro-mobile.png);
         padding: 115px 32px 179px;
 
         &::before {

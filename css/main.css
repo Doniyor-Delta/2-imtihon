@@ -767,7 +767,7 @@ a {
   .intro {
     overflow: hidden;
     text-align: center;
-    background-image: url(../img/intro-mobile.png) cover;
+    background-image: url(../img/intro-mobile.png);
     padding: 115px 32px 179px;
   }
   .intro::before {
