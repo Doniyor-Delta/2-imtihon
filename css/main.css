@@ -1297,4 +1297,68 @@ a {
     letter-spacing: -1.42857px;
   }
 }
+
+.footer {
+  padding-top: 35px;
+  padding-bottom: 32px;
+  background-color: #333A44;
+}
+
+.footer__container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__item {
+  margin-right: 24px;
+}
+
+.footer__item:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 689px) {
+  .footer {
+    padding-top: 64px;
+    padding-bottom: 88px;
+  }
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 41px;
+    margin-bottom: 87px;
+  }
+  .footer__nav-item {
+    margin-bottom: 16px;
+  }
+  .footer__nav-item:last-child {
+    margin-bottom: 0;
+  }
+}
 /*# sourceMappingURL=main.css.map */
