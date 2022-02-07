@@ -753,6 +753,7 @@ a {
     max-width: 573px;
     margin-top: 24px;
     margin-bottom: 32px;
+    margin-left: 0;
   }
   .intro .intro__link {
     margin: 0;
