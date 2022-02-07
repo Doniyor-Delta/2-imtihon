@@ -1101,6 +1101,14 @@ a {
   right: -536px;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .intro {
+    background-image: url(../img/comfort-1@2x.png);
+    background-image: url(../img/comfort-2@2x.png);
+    background-image: url(../img/comfort-3@2x.png);
+  }
+}
+
 @media screen and (max-width: 1106px) {
   .comfort__item {
     -webkit-box-orient: vertical;
@@ -1144,6 +1152,7 @@ a {
   .comfort__img {
     width: 311px;
     height: 311px;
+    background-size: contain;
   }
   .comfort__item::after {
     display: none;
