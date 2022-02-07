@@ -1,5 +1,6 @@
 .intro {
     padding: 153px 0 152px;
+    background-size: cover;
     background: url(../img/intro-img.png) no-repeat, center center;
     position: relative;
     
@@ -76,6 +77,7 @@ only screen and (                min-resolution: 2dppx) {
        
         text-align: center;
         background-image: url(../img/intro-tablet.png);
+        background-size: cover;
         padding: 137px 98px 217px 97px;
 
         &::before {

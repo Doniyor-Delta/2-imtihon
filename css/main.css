@@ -675,6 +675,7 @@ a {
 
 .intro {
   padding: 153px 0 152px;
+  background-size: cover;
   background: url(../img/intro-img.png) no-repeat, center center;
   position: relative;
 }
@@ -735,6 +736,7 @@ a {
   .intro {
     text-align: center;
     background-image: url(../img/intro-tablet.png);
+    background-size: cover;
     padding: 137px 98px 217px 97px;
   }
   .intro::before {
@@ -1133,8 +1135,8 @@ a {
   }
   .comfort__item-money::before {
     content: '';
-    top: 85px;
-    right: -386px;
+    top: 0px;
+    right: -456px;
   }
 }
 
@@ -1142,6 +1144,17 @@ a {
   .comfort__img {
     width: 311px;
     height: 311px;
+  }
+  .comfort__item::after {
+    display: none;
+  }
+  .comfort__item-call::before {
+    content: '';
+    top: 173px;
+  }
+  .comfort__item-city::before {
+    content: '';
+    left: -480px;
   }
 }
 /*# sourceMappingURL=main.css.map */

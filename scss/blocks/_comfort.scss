@@ -197,10 +197,11 @@ padding-bottom: 66px;
     }
     .comfort__item-money::before {
         content: '';
-        top: 85px;
-        right: -386px;
+        top: 0px;
+        right: -456px;
        
     }
+
     
 }
 
@@ -210,6 +211,21 @@ padding-bottom: 66px;
        width: 311px;
        height: 311px;
    }
+
+   .comfort__item::after {
+       display: none;
+   }
+   
+   .comfort__item-call::before {
+       content: '';
+       top: 173px;
+   }
+
+   .comfort__item-city::before {
+    content: '';
     
+    left: -480px;
+   
+}
     
 }
