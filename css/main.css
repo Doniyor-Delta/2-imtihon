@@ -691,8 +691,8 @@ a {
 .intro::after {
   content: "";
   position: absolute;
-  width: 447px;
-  height: 138px;
+  width: 450px;
+  height: 140px;
   background: url(../img/intro-arrow.png) no-repeat, center center;
   left: 705px;
   top: 355px;
@@ -767,6 +767,7 @@ a {
   .intro {
     overflow: hidden;
     text-align: center;
+    background-size: cover;
     background-image: url(../img/intro-mobile.png);
     padding: 115px 32px 179px;
   }
@@ -949,6 +950,198 @@ a {
   .delivery__item-description {
     max-width: 311px;
     margin: 0;
+  }
+}
+
+.comfort {
+  overflow: hidden;
+}
+
+.comfort__container {
+  padding-bottom: 329px;
+}
+
+.comfort__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.comfort__item {
+  margin-bottom: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.comfort__item:last-child {
+  margin-bottom: 0;
+}
+
+.comfort__item:nth-last-child(2n) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.comfort__img {
+  display: block;
+  width: 445px;
+  height: 445px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.comfort__img-phone {
+  background: url(../img/comfort-1.png) no-repeat, center center;
+}
+
+.comfort__img-city {
+  background: url(../img/comfort-2.png) no-repeat, center center;
+}
+
+.comfort__img-money {
+  background: url(../img/comfort-3.png) no-repeat, center center;
+}
+
+.comfort__item::after {
+  content: '';
+  position: absolute;
+  width: 445px;
+  height: 445px;
+  background-color: #E5ECF4;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  top: 0;
+  right: calc(-50% + 64px);
+  z-index: -1;
+}
+
+.comfort__item-title {
+  max-width: 445px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin: 0;
+}
+
+.comfort__item-description {
+  max-width: 445px;
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.comfort__item-content {
+  padding-top: 66px;
+  padding-bottom: 66px;
+}
+
+.comfort__img {
+  border-radius: 50%;
+}
+
+.comfort__item-call {
+  position: relative;
+}
+
+.comfort__item-call::before {
+  content: '';
+  position: absolute;
+  background: url(../img/comfort-line-1.svg) no-repeat, center center;
+  width: 735px;
+  height: 138px;
+  bottom: 0;
+  right: -130px;
+}
+
+.comfort__item-city {
+  position: relative;
+}
+
+.comfort__item-city::before {
+  position: absolute;
+  content: '';
+  background: url(../img/comfort-line.svg) no-repeat, center;
+  width: 735px;
+  height: 138px;
+  top: 0;
+  left: -546px;
+}
+
+.comfort__item-money {
+  position: relative;
+}
+
+.comfort__item-money::before {
+  content: '';
+  position: absolute;
+  background: url(../img/comfort-line-1.svg) no-repeat, center center;
+  width: 735px;
+  height: 138px;
+  top: 85px;
+  right: -536px;
+}
+
+@media screen and (max-width: 1106px) {
+  .comfort__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .comfort__item:nth-last-child(2n) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .comfort__item-content {
+    text-align: center;
+  }
+  .comfort__item-title {
+    max-width: 457px;
+  }
+  .comfort__item-title {
+    max-width: 573px;
+  }
+  .comfort__item-call::before {
+    content: '';
+    top: 307px;
+    left: 0;
+  }
+  .comfort__item-city::before {
+    content: '';
+    top: 0;
+    left: -432;
+  }
+  .comfort__item-money::before {
+    content: '';
+    top: 85px;
+    right: -386px;
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .comfort__img {
+    width: 311px;
+    height: 311px;
   }
 }
 /*# sourceMappingURL=main.css.map */

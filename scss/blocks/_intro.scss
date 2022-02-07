@@ -18,8 +18,8 @@
     &::after {
         content: "";
         position: absolute;
-        width: 447px;
-        height: 138px;
+        width: 450px;
+        height: 140px;
         background: url(../img/intro-arrow.png)  no-repeat, center center;
         left: 705px;
         top: 355px;
@@ -131,6 +131,7 @@ only screen and (                min-resolution: 2dppx) {
        
        overflow: hidden;
         text-align: center;
+        background-size: cover;
         background-image: url(../img/intro-mobile.png);
         padding: 115px 32px 179px;
 
