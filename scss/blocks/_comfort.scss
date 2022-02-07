@@ -56,7 +56,6 @@ position: relative;
 
 
 .comfort__item::after {
-   
         content: '';
         position: absolute;
         width: 445px;
@@ -67,10 +66,7 @@ position: relative;
         top: 0;
         right: calc(-50% + 64px);
         z-index: -1;
-        
-        
 
-       
     }
 
 
