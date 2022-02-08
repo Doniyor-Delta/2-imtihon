@@ -3,17 +3,17 @@
     background-size: cover;
     background: url(../img/intro-img.png) no-repeat, center center;
     position: relative;
-    
+
 
     &::before {
         content: "";
         position: absolute;
         width: 202px;
         height: 15px;
-        background: url(../img/intro-line.png)  no-repeat, center center;
-       top: 353px;
-       
-       
+        background: url(../img/intro-line.png) no-repeat, center center;
+        top: 353px;
+
+
     }
 
     &::after {
@@ -21,26 +21,27 @@
         position: absolute;
         width: 450px;
         height: 140px;
-        background: url(../img/intro-arrow.png)  no-repeat, center center;
+        background: url(../img/intro-arrow.png) no-repeat, center center;
         left: 705px;
         top: 355px;
     }
 
- 
-  
+
+
 }
 
 .intro__title {
     max-width: 500px;
     font-family: Space Mono;
-font-style: normal;
-font-weight: bold;
-font-size: 56px;
-line-height: 56px;
-letter-spacing: -2.5px;
-color: $white;
-margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: $white;
+    margin: 0;
 }
+
 .intro__description {
     max-width: 405px;
     margin: 40px auto 40px 95px;
@@ -49,7 +50,7 @@ margin: 0;
     font-weight: normal;
     font-size: 15px;
     line-height: 25px;
-color:$white;
+    color: $white;
 
 }
 
@@ -57,27 +58,26 @@ color:$white;
     margin-left: 95px;
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
-  
-  .intro{
-      background-image: url(../img/intro-img@2x.png);
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
 
-  }
+    .intro {
+        background-image: url(../img/intro-img@2x.png);
+
+    }
 }
 
-@media screen and (max-width: $tablet){
+@media screen and (max-width: $tablet) {
 
-    .intro { 
-       
+    .intro {
+
         text-align: center;
         background-image: url(../img/intro-tablet.png);
-       background-size: cover;
+        background-size: cover;
         padding: 137px 98px 217px 97px;
 
         &::before {
@@ -85,54 +85,55 @@ only screen and (                min-resolution: 2dppx) {
         }
 
         &::after {
-            top:473px;
+            top: 473px;
             left: -127px;
         }
 
         .intro__title {
-    
+
             max-width: 573px;
-            
-            
-            
-            }
-            .intro__description {
-                max-width: 573px;
-                margin-top: 24px;
-                margin-bottom: 32px;
-                margin-left: 0;
-                
-            
-            }
-            .intro__link {
-                margin: 0;
-                
-            }
+
+
+
+        }
+
+        .intro__description {
+            max-width: 573px;
+            margin-top: 24px;
+            margin-bottom: 32px;
+            margin-left: 0;
+
+
+        }
+
+        .intro__link {
+            margin: 0;
+
+        }
     }
-    
-    
 
-    @media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
-  
-  .intro{
-      background-image: url(../img/intro-tablet@2x.png);
 
-  }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+
+        .intro {
+            background-image: url(../img/intro-tablet@2x.png);
+
+        }
+    }
+
 }
-    
-}
 
-@media screen and (max-width: $mobile){
+@media screen and (max-width: $mobile) {
 
-    .intro { 
-       
-       overflow: hidden;
+    .intro {
+
+        overflow: hidden;
         text-align: center;
         background-size: cover;
         background-image: url(../img/intro-mobile.png);
@@ -147,34 +148,34 @@ only screen and (                min-resolution: 2dppx) {
             left: -312px;
         }
     }
-    
+
     .intro__title {
         max-width: 311px;
-    font-size: 40px;
-    line-height: 40px;
-    letter-spacing: -1.78px;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.78px;
     }
+
     .intro__description {
         max-width: 311px;
-    
+
     }
 
-  
-    
 
-    @media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
-  
-  .intro{
-      background-image: url(../img/intro-mobile@2x.png);
 
-  }
-}
-    
-    
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+
+        .intro {
+            background-image: url(../img/intro-mobile@2x.png);
+
+        }
+    }
+
+
 }
